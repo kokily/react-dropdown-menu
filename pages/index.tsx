@@ -1,7 +1,13 @@
 import { NextPage } from 'next';
+import Header from '../components/Header';
 
 const IndexPage: NextPage = () => {
-  return <div>IndexPage</div>;
+  return (
+    <>
+      <Header />
+      IndexPage
+    </>
+  );
 };
 
 export default IndexPage;
